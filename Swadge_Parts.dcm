@@ -1,0 +1,201 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP 2460
+D Battery Holder; AA; Polypropylene; PC Mount; 1; Spring; PC Lug
+F https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND/280629
+$ENDCMP
+#
+$CMP 4-1437565-2
+D Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 1A SOT-223
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP AM4311T42A0
+F https://datasheet.lcsc.com/szlcsc/1809191740_Partron-AM4311T42A0_C267056.pdf
+$ENDCMP
+#
+$CMP B3FS-4002P
+D Black Cap Tactile Switch, SPST-NO 50 mA @ 24 V dc 0.4mm
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf
+$ENDCMP
+#
+$CMP BUS_PCIexpress
+D Edge Connector
+$ENDCMP
+#
+$CMP Battery
+D Multiple-cell battery
+K batt voltage-source cell
+F http://www.keyelco.com/product-pdf.cfm?p=1025
+$ENDCMP
+#
+$CMP Buzzer
+D Buzzer, polarized
+K quartz resonator ceramic
+F https://www.aliexpress.com/item/33004601553.html?spm=a2g0s.9042311.0.0.56834c4diZwZhE
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CP2102N-A01-GQFN24
+D USB to UART master bridge
+K USB UART bridge
+F http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP Conn_01x03_Male
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x15_Top_Bottom
+D Generic connector, double row, 02x15, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://drawings-pdf.s3.amazonaws.com/11636.pdf
+$ENDCMP
+#
+$CMP Conn_02x21_Top_Bottom
+D Generic connector, double row, 02x21, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP ESP-12F
+D ESP8266 ESP-12F module, 22 pins, 2mm, PCB antenna
+K MODULE ESP8266 ESP-8266
+F https://www.electrodragon.com/product/esp-12f-esp8266-wifi-board/
+$ENDCMP
+#
+$CMP ESP-13-WROOM-02D
+D ESP8266 ESP-13-WROOM-02 module, 18 pins, 2mm, PCB antenna
+K MODULE ESP8266 ESP-8266
+F https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GS321-TR
+F https://datasheet.lcsc.com/szlcsc/1901081202_Gainsil-GS321-TR_C157695.pdf
+$ENDCMP
+#
+$CMP Headband
+F https://cdn.harwin.com/pdfs/M50-353.pdf
+$ENDCMP
+#
+$CMP Hole
+F https://www.bumperspecialties.com/wp-content/uploads/2017/01/Bumper-Technical-Drawing-BS02.pdf
+$ENDCMP
+#
+$CMP MCP6001UT-I_OT
+D 10 MHz, 850 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP MMA8452Q
+D Accelerometer
+F https://www.digikey.com/catalog/en/partgroup/mma8452q/11242
+$ENDCMP
+#
+$CMP MSA300
+D Accelerometer
+F https://lcsc.com/product-detail/Motion-Sensors-Accelerometers_MSA300_C107276.html
+$ENDCMP
+#
+$CMP Microphone
+D Microphone
+K Microphone
+F https://www.digikey.com/product-detail/en/pui-audio-inc/POM-2738P-R/668-1158-ND/1464897
+$ENDCMP
+#
+$CMP NAV_SWITCH
+F https://cdn.sparkfun.com/datasheets/Components/Switches/LEVER8184.pdf
+$ENDCMP
+#
+$CMP OLED_CONNECTOR
+D Display
+F https://datasheet.lcsc.com/szlcsc/JUSHUO-AFC07-S30ECC-00_C11095.pdf
+$ENDCMP
+#
+$CMP OLED_DISPLAY
+F https://www.buydisplay.com/download/ic/SSD1306.pdf
+$ENDCMP
+#
+$CMP QMA6981
+F https://datasheet.lcsc.com/szlcsc/QST-QMA6981_C310611.pdf
+$ENDCMP
+#
+$CMP Q_NPN_BEC
+D NPN transistor, base/collector/emitter
+K transistor NPN
+F https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF
+$ENDCMP
+#
+$CMP R_US
+D Resistor US symbol
+K r res resistor
+F ~
+$ENDCMP
+#
+$CMP SAO
+F https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/
+$ENDCMP
+#
+$CMP SP0503BAHT
+D TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package
+K usb esd protection suppression transient
+F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
+$ENDCMP
+#
+$CMP SW_DPDT_x2
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+$ENDCMP
+#
+$CMP Speaker
+D Speaker
+K speaker sound
+F https://datasheet.lcsc.com/szlcsc/1808301434_ZLFY-ZL-YDW1207-4005PA-5-0_C219727.pdf
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F https://www.molex.com/pdm_docs/sd/473460001_sd.pdf
+$ENDCMP
+#
+$CMP WS2812B
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
+#End Doc Library
