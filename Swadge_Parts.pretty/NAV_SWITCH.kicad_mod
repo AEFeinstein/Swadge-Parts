@@ -30,7 +30,7 @@
     (solder_mask_margin 0.1016))
   (pad 1 smd rect (at -2.49936 3.79984) (size 1.89992 1.79832) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.1016))
-  (model ${KIPRJMOD}/../kicad-libs/package3d/NAV_SWITCH.STEP
+  (model ${KIPRJMOD}/../Swadge-Parts/package3d/NAV_SWITCH.STEP
     (offset (xyz -5.9 -4.17 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

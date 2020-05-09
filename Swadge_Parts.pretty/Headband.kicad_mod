@@ -137,17 +137,17 @@
   (pad 1 thru_hole rect (at 14.5368 -0.635) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -14.5368 -0.635) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at -14.5368 0.635) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/../kicad-libs/package3d/headband.step
+  (model ${KIPRJMOD}/../Swadge-Parts/package3d/headband.step
     (offset (xyz -16.5 2.5 1.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/../kicad-libs/package3d/PinHeader_1x02_P1.27mm_Vertical.wrl
+  (model ${KIPRJMOD}/../Swadge-Parts/package3d/PinHeader_1x02_P1.27mm_Vertical.wrl
     (offset (xyz 14.5368 0.635 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/../kicad-libs/package3d/PinHeader_1x02_P1.27mm_Vertical.wrl
+  (model ${KIPRJMOD}/../Swadge-Parts/package3d/PinHeader_1x02_P1.27mm_Vertical.wrl
     (offset (xyz -14.5368 0.635 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
