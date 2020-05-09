@@ -279,7 +279,7 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C" 25 -100 50 H V L CNN
 F2 "Swadge_Parts:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "n/a" 125 200 50 H V C CNN "Digikey"
+F4 "n/a" 125 200 50 H I C CNN "Digikey"
 F5 "10" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 0 H I C CNN "Substitutable"
 $FPLIST
@@ -965,7 +965,7 @@ F0 "R" 100 0 50 V V C CNN
 F1 "R_US" -100 0 50 V V C CNN
 F2 "Swadge_Parts:R_0603_1608Metric" 40 -10 50 V I C CNN
 F3 "" 100 0 50 V I C CNN
-F4 "n/a" 200 100 50 V V C CNN "Digikey"
+F4 "n/a" 200 100 50 V I C CNN "Digikey"
 F5 "10" 0 0 10 H I C CNN "Cost100"
 F6 "Y" 0 0 10 H I C CNN "Substitutable"
 $FPLIST
