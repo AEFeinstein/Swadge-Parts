@@ -1,8 +1,8 @@
-(module blade-plate-med-no-teeth (layer F.Cu) (tedit 5EC4A63F)
-  (fp_text reference Ref** (at 0 0) (layer F.SilkS) hide
+(module blade-plate-med-no-teeth (layer F.Cu) (tedit 5EC96B81)
+  (fp_text reference Ref** (at 0 -20.98) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+  (fp_text value Val** (at 0 -17.78) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_poly (pts (xy 0.476893 -22.509641) (xy 0.932437 -22.497172) (xy 1.366447 -22.477268) (xy 1.794669 -22.449309)

@@ -21,7 +21,6 @@ F https://www.digikey.com/product-detail/en/keystone-electronics/2460/36-2460-ND
 $ENDCMP
 #
 $CMP 4-1437565-2
-D Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 1A SOT-223
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
@@ -42,6 +41,10 @@ $CMP Battery
 D Multiple-cell battery
 K batt voltage-source cell
 F http://www.keyelco.com/product-pdf.cfm?p=1025
+$ENDCMP
+#
+$CMP Blade_Plating
+F n/a
 $ENDCMP
 #
 $CMP Buzzer
@@ -196,6 +199,10 @@ $CMP WS2812B
 D RGB LED with integrated controller
 K RGB LED NeoPixel addressable
 F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
+$CMP blade-plate
+F https://cdn.harwin.com/pdfs/M50-353.pdf
 $ENDCMP
 #
 #End Doc Library
