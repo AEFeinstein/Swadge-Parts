@@ -1,4 +1,4 @@
-(module blade-plate-med-no-teeth (layer F.Cu) (tedit 5EC96B81)
+(module blade-plate-med-no-teeth (layer F.Cu) (tedit 5EC980E6)
   (fp_text reference Ref** (at 0 -20.98) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
@@ -98,8 +98,8 @@
     (xy -3.074866 -15.604719) (xy -2.542724 -15.947327) (xy -1.97778 -16.218288) (xy -1.765943 -16.297552)
     (xy -1.36402 -16.424301) (xy -0.992509 -16.51164) (xy -0.622567 -16.5638) (xy -0.225348 -16.585013)
     (xy 0.169333 -16.581452)) (layer F.Fab) (width 0.01))
-  (pad 1 thru_hole circle (at -9.71 18.56 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 8.45 18.56 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -9.71 18.56 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 8.45 18.56 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0.635 -19.45 180) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
   (pad 2 thru_hole rect (at -0.635 -19.45 90) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/../Swadge-Parts/package3d/blade-plate-med-no-teeth.step
