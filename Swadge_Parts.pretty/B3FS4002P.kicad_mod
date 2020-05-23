@@ -1,4 +1,4 @@
-(module B3FS4002P (layer F.Cu) (tedit 5D6D1904)
+(module B3FS4002P (layer F.Cu) (tedit 5EC983B5)
   (descr B3FS-4002P)
   (tags Switch)
   (attr smd)
@@ -24,9 +24,9 @@
   (pad 3 smd rect (at 6.025 -2.5) (size 2.3 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -8.275 2.5) (size 2.3 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 6.025 2.5) (size 2.3 2.4) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/../Swadge-Parts/package3d/B3FS-4002P.step
+  (model ${KIPRJMOD}/../Swadge-Parts/package3d/B3FS_4002P.step
     (offset (xyz -1.1 0 0))
-    (scale (xyz 0.4 0.4 0.4))
-    (rotate (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
