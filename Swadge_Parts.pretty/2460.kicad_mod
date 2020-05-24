@@ -1,4 +1,4 @@
-(module 2460 (layer F.Cu) (tedit 5EC97EB2)
+(module 2460 (layer F.Cu) (tedit 5EC9EEA5)
   (descr 2460)
   (tags "Undefined or Miscellaneous")
   (fp_text reference U** (at 0 0) (layer F.SilkS)
@@ -21,8 +21,8 @@
   (pad 1 thru_hole circle (at 25.995 0.045 90) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -25.995 0.045 90) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
   (model "${KIPRJMOD}/../Swadge-Parts/package3d/KEYSTONE 2460.step"
-    (offset (xyz -2.95 0.7 10.45))
+    (offset (xyz 2.95 -0.7 10.45))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz -90 0 180))
   )
 )
