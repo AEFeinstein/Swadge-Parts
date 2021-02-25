@@ -95,6 +95,10 @@ K MODULE ESP8266 ESP-8266
 F https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP ESP32-C3-MINI-1
+F https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
+$ENDCMP
+#
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag
