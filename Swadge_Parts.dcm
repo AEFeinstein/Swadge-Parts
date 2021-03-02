@@ -155,6 +155,10 @@ $CMP QMA6981
 F https://datasheet.lcsc.com/szlcsc/QST-QMA6981_C310611.pdf
 $ENDCMP
 #
+$CMP QMA7981
+F https://datasheet.lcsc.com/szlcsc/2004281102_QST-QMA7981_C457290.pdf
+$ENDCMP
+#
 $CMP Q_NPN_BEC
 D NPN transistor, base/collector/emitter
 K transistor NPN
