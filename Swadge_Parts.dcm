@@ -83,6 +83,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP D
+D Diode
+K diode
+F https://media.digikey.com/pdf/Data%20Sheets/Surge%20Components%20PDFs/GS1A-GS1M.pdf
+$ENDCMP
+#
 $CMP ESP-12F
 D ESP8266 ESP-12F module, 22 pins, 2mm, PCB antenna
 K MODULE ESP8266 ESP-8266
@@ -140,6 +146,12 @@ $CMP Microphone
 D Microphone
 K Microphone
 F https://www.digikey.com/product-detail/en/pui-audio-inc/POM-2738P-R/668-1158-ND/1464897
+$ENDCMP
+#
+$CMP Motor_DC
+D DC Motor
+K DC Motor
+F https://www.vibration-motor.com/wp-content/uploads/2019/09/Z30C1B839982L.pdf
 $ENDCMP
 #
 $CMP NAV_SWITCH
