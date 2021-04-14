@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="touch-ring-no-overlap.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   width="26.0mm"
+   height="26.0mm"
+   viewBox="0 0 26.0 26.0"
+   version="1.1"
+   id="svg939">
+  <defs
+     id="defs933" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="54"
+     inkscape:window-height="1177"
+     inkscape:window-width="1858"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="g1509"
+     inkscape:document-units="mm"
+     inkscape:cy="81.68674"
+     inkscape:cx="-10.2089"
+     inkscape:zoom="2.8"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata936">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="[fixed] BG"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true"
+     id="g1507">
+    <rect
+       x="0"
+       y="0"
+       width="26.0"
+       height="26.0"
+       style="fill:#FFFFFF;fill-opacity:1;stroke:none"
+       id="rect1505" />
+  </g>
+  <g
+     inkscape:label="F.Cu"
+     inkscape:groupmode="layer"
+     id="g1509">
+    <path
+       d="M 12.884243,0 A 13.000274,13.000275 0 0 0 0,12.999997 13.000274,13.000275 0 0 0 1.6924349,19.413178 L 7.1077297,16.292889 A 6.7501428,6.7501431 0 0 1 6.2498818,12.999997 6.7501428,6.7501431 0 0 1 12.884243,6.25143 Z m 0.230474,5.16e-4 v 6.250398 a 6.7501428,6.7501431 0 0 1 6.6354,6.749083 6.7501428,6.7501431 0 0 1 -0.858878,3.295477 l 5.415285,3.119771 A 13.000274,13.000275 0 0 0 26,12.999997 13.000274,13.000275 0 0 0 13.114717,5.16e-4 Z M 7.2229727,16.491331 1.8076779,19.612137 A 13.000274,13.000275 0 0 0 12.999485,26 13.000274,13.000275 0 0 0 24.190761,19.614722 l -5.415804,-3.119774 a 6.7501428,6.7501431 0 0 1 -5.775472,3.255685 6.7501428,6.7501431 0 0 1 -5.7765123,-3.259302 z"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path1043-1-6" />
+  </g>
+  <g
+     inkscape:label="F.Mask"
+     inkscape:groupmode="layer"
+     id="g1511">
+    <path
+       id="path1043-1"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 12.884243,0 A 13.000275,13.000275 0 0 0 0,12.999997 13.000275,13.000275 0 0 0 1.692435,19.413178 L 7.10773,16.292889 A 6.7501431,6.7501431 0 0 1 6.249882,12.999997 6.7501431,6.7501431 0 0 1 12.884243,6.2514297 Z m 0.230475,5.16e-4 v 6.2503975 a 6.7501431,6.7501431 0 0 1 6.6354,6.7490835 6.7501431,6.7501431 0 0 1 -0.858878,3.295477 l 5.415285,3.119771 A 13.000275,13.000275 0 0 0 26.000001,12.999997 13.000275,13.000275 0 0 0 13.114718,5.16e-4 Z M 7.222973,16.491331 1.807678,19.612137 A 13.000275,13.000275 0 0 0 12.999485,26 13.000275,13.000275 0 0 0 24.190762,19.614722 l -5.415804,-3.119774 a 6.7501431,6.7501431 0 0 1 -5.775473,3.255685 6.7501431,6.7501431 0 0 1 -5.776512,-3.259302 z" />
+  </g>
+</svg>
