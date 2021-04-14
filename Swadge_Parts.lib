@@ -1377,6 +1377,39 @@ X DIN 4 -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# art_made_by_adam
+#
+DEF art_made_by_adam U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H I C CNN
+F1 "art_made_by_adam" 0 0 50 H V C CNN
+F2 "Swadge_Parts:made-by-adam" 0 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# art_mag_logo_metal
+#
+DEF art_mag_logo_metal U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H I C CNN
+F1 "art_mag_logo_metal" 0 0 50 H V C CNN
+F2 "Swadge_Parts:mag-logo-metal" 0 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# art_swadge_family
+#
+DEF art_swadge_family U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H I C CNN
+F1 "art_swadge_family" 0 0 50 H V C CNN
+F2 "Swadge_Parts:swadges-family" 0 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
 # blade-plate
 #
 DEF blade-plate U 0 40 Y Y 1 F N
