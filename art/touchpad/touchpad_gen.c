@@ -39,14 +39,15 @@ const char * GetGUID()
 const float edge_override = .16;  // phase clocking of inside edge
 const int sections = 5;
 const float max_edge = 0.80;  // clearance on outside.
-const float inside_standoff = 0.03; //Clearance between inside and outside.
+const float inside_standoff = 0.045; //Clearance between inside and outside.
 const float inside_radius = 0.5;
 const float core_radius = 0.4;
-const float tooth_depth = 1.2;
+const float tooth_depth = 1.4;
 const float pcbscale = 0.04;
 const float epsilon = 0.02;
+const float edge_width = 0.1; //in mm of width of edge line.
 const float inside_epsilon = 0.002;
-const int teeth = 3;
+const int teeth = 2;
 const int centerteeth = 10;
 const float inside_phase = 1.1;
 
@@ -94,10 +95,23 @@ int main()
 	int section = 0;
 	for( section = 0; section < sections; section++ )
 	{
-		fprintf( part,  "(fp_poly (pts\n" );
-		fprintf( f, "<polygon points=\"" );
-		float thetamin = section / (float)sections * 3.1415926 * 2.0;
+		float thetamin = (section) / (float)sections * 3.1415926 * 2.0;
 		float thetamax = (section+max_edge) / (float)sections * 3.1415926 * 2.0;
+
+		theta = (thetamin+thetamax)/2. + (0.7f*max_edge/sections)*6.283185f;
+		r = 0.98;
+		float x = cx + sin( theta - 1 ) * w * r/2;
+		float y = cy + cos( theta - 1 ) * h * r/2;
+		float pinx = x*pcbscale;
+		float piny = y*pcbscale;
+	
+		fprintf( part, "(pad \"%d\" smd custom (at %f %f) (size 1 1) (layers \"F.Cu\")\n\
+		(options (clearance outline) (anchor circle))\n\
+		(primitives\n\
+		(gr_poly (pts\n", section+1, pinx, piny );
+	
+		
+		fprintf( f, "<polygon points=\"" );
 		int toothedge;
 		
 		// Outside Edge
@@ -107,7 +121,7 @@ int main()
 			float x = cx + sin( theta ) * w/2.0*r;
 			float y = cy + cos( theta ) * h/2.0*r;
 			fprintf( f, "%f,%f ", x, y );
-			fprintf( part, "(xy %f %f)\n", x*pcbscale, y*pcbscale );
+			fprintf( part, "(xy %f %f)\n", x*pcbscale-pinx, y*pcbscale-piny );
 			printf( "A %f / %f\n", theta, r );
 		}
 
@@ -125,7 +139,7 @@ int main()
 					float x = cx + sin( theta ) * w/2.0*r;
 					float y = cy + cos( theta ) * h/2.0*r;
 					fprintf( f, "%f,%f ", x, y );
-					fprintf( part, "(xy %f %f)\n", x*pcbscale, y*pcbscale );
+					fprintf( part, "(xy %f %f)\n", x*pcbscale-pinx, y*pcbscale-piny );
 					printf( "B %f / %f\n", theta, r );
 				}
 			}
@@ -139,7 +153,7 @@ int main()
 					float x = cx + sin( theta ) * w/2.0*r;
 					float y = cy + cos( theta ) * h/2.0*r;
 					fprintf( f, "%f,%f ", x, y );
-					fprintf( part, "(xy %f %f)\n", x*pcbscale, y*pcbscale );
+					fprintf( part, "(xy %f %f)\n", x*pcbscale-pinx, y*pcbscale-piny );
 					printf( "C %f / %f\n", theta, r );
 				}
 			}
@@ -153,7 +167,7 @@ int main()
 			r = core_radius + (inside_radius-core_radius)*CenterFunction(theta);
 			fprintf( f, "%f,%f ", x, y );
 			printf( "D %f / %f\n", theta, r );
-			fprintf( part, "(xy %f %f)\n", x*pcbscale, y*pcbscale );
+			fprintf( part, "(xy %f %f)\n", x*pcbscale-pinx, y*pcbscale-piny );
 		}
 
 		//Trailing Teeth
@@ -177,7 +191,7 @@ int main()
 					float y = cy + cos( theta ) * h/2.0*r;
 					fprintf( f, "%f,%f ", x, y );
 					printf( "B %f / %f\n", theta, r );
-					fprintf( part, "(xy %f %f)\n", x*pcbscale, y*pcbscale );
+					fprintf( part, "(xy %f %f)\n", x*pcbscale-pinx, y*pcbscale-piny );
 				}
 			}
 			else
@@ -191,21 +205,31 @@ int main()
 					float y = cy + cos( theta ) * h/2.0*r;
 					fprintf( f, "%f,%f ", x, y );
 					printf( "C %f / %f\n", theta, r );
-					fprintf( part, "(xy %f %f)\n", x*pcbscale, y*pcbscale );
+					fprintf( part, "(xy %f %f)\n", x*pcbscale-pinx, y*pcbscale-piny );
 				}
 			}
 		}
 		
 		theta = (thetamin+thetamax)/2. + (0.7f*max_edge/sections)*6.283185f;
 		r = 0.98;
-		float x = cx + sin( theta ) * w * r/2;
-		float y = cy + cos( theta ) * h * r/2;
+		x = cx + sin( theta ) * w * r/2;
+		y = cy + cos( theta ) * h * r/2;
 		fprintf( f, "\" style=\"fill:black\" />" );
-		fprintf( part, ") (layer \"F.Cu\") (width 0.01) (fill solid) (tstamp %s))\n", GetGUID() );
-		fprintf( part, "(pad \"%d\" smd circle (at %f %f) (size 1.524 1.524) (layers \"F.Cu\") (tstamp %s))\n", section+1, x*pcbscale, y*pcbscale, GetGUID() );
+		//fprintf( part, ") (layer \"F.Cu\") (width 0.01) (fill solid) (tstamp %s))\n", GetGUID() );
+		//fprintf( part, "(pad \"%d\" smd circle (at %f %f) (size 1.524 1.524) (layers \"F.Cu\") (tstamp %s))\n", section+1, x*pcbscale, y*pcbscale, GetGUID() );
+        fprintf( part, ") (width %f) (fill yes))) (tstamp %s))\n", edge_width, GetGUID() );
+
 	}
 
-	fprintf( part,  "(fp_poly (pts\n" );
+//	fprintf( part,  "(fp_poly (pts\n" );
+	float pinx = w/2*pcbscale;
+	float piny = h/2*pcbscale;
+	fprintf( part, "(pad \"%d\" smd custom (at %f %f) (size 1 1) (layers \"F.Cu\")\n\
+		(options (clearance outline) (anchor circle))\n\
+		(primitives\n\
+		(gr_poly (pts\n", section+1, pinx, piny);
+
+
 	fprintf( f, "<polygon points=\"" );
 	for( theta = 0; theta < 6.283185; theta += inside_epsilon )
 	{
@@ -214,12 +238,13 @@ int main()
 		float y = cy + cos( theta ) * h/2.0*r;
 		fprintf( f, "%f,%f ", x, y );
 		printf( "B %f / %f\n", theta, r );
-		fprintf( part, "(xy %f %f)\n", x*pcbscale, y*pcbscale );
+		fprintf( part, "(xy %f %f)\n", x*pcbscale-pinx, y*pcbscale-piny );
 		
 	}
 	fprintf( f, "\" style=\"fill:black\" />" );
-	fprintf( part, ") (layer \"F.Cu\") (width 0.01) (fill solid) (tstamp %s))\n", GetGUID() );
-	fprintf( part, "(pad \"%d\" smd circle (at %f %f) (size 1.524 1.524) (layers \"F.Cu\") (tstamp %s))\n", sections+1, cx*pcbscale, cy*pcbscale, GetGUID() );
+//	fprintf( part, ") (layer \"F.Cu\") (width 0.01) (fill solid) (tstamp %s))\n", GetGUID() );
+//	fprintf( part, "(pad \"%d\" smd circle (at %f %f) (size 1.524 1.524) (layers \"F.Cu\") (tstamp %s))\n", sections+1, cx*pcbscale, cy*pcbscale, GetGUID() );
+     fprintf( part, ") (width %f) (fill yes))) (tstamp %s))\n", edge_width, GetGUID() );
 
 	fprintf( f, "</svg>" );
 	fprintf( part, ")\n" );
