@@ -42,12 +42,12 @@ const float max_edge = 0.80;  // clearance on outside.
 const float inside_standoff = 0.045; //Clearance between inside and outside.
 const float inside_radius = 0.5;
 const float core_radius = 0.4;
-const float tooth_depth = 1.4;
+const float tooth_depth = 1.0;
 const float pcbscale = 0.04;
 const float epsilon = 0.02;
 const float edge_width = 0.1; //in mm of width of edge line.
 const float inside_epsilon = 0.002;
-const int teeth = 2;
+const int teeth = 3;
 const int centerteeth = 10;
 const float inside_phase = 1.1;
 
