@@ -1,6 +1,6 @@
 (footprint "PinHeader_2x07_P2.54mm_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 59FED5CC)
+  (tedit 627490B9)
   (descr "Through hole straight pin header, 2x07, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x07 2.54mm double row")
   (attr through_hole)
@@ -47,7 +47,7 @@
   (pad "12" thru_hole oval (at 2.54 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp c35eef89-3167-42b6-bf24-38037971f3f9))
   (pad "13" thru_hole oval (at 0 15.24) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 9e0d3b28-81d0-4a81-a086-055a625bb7b3))
   (pad "14" thru_hole oval (at 2.54 15.24) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 31a2ebc5-5e48-4c9f-8faf-f8514423da76))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x07_P2.54mm_Vertical.wrl"
+  (model "${KIPRJMOD}/../Swadge-Parts/package3d/PinHeader_2x07_P2.54mm_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

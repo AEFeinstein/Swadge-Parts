@@ -1,6 +1,6 @@
 (footprint "SOT-23-6" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 5F6F9B37)
+  (tedit 627490F4)
   (descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
   (tags "SOT TO_SOT_SMD")
   (attr smd)
@@ -35,7 +35,7 @@
   (pad "4" smd roundrect (at 1.1375 0.95) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0cc9bf07-55b9-458f-b8aa-41b2f51fa940))
   (pad "5" smd roundrect (at 1.1375 0) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 241e0c85-4796-48eb-a5a0-1c0f2d6e5910))
   (pad "6" smd roundrect (at 1.1375 -0.95) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 386ad9e3-71fa-420f-8722-88548b024fc5))
-  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+  (model "${KIPRJMOD}/../Swadge-Parts/package3d/SOT-23-6.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
