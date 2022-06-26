@@ -1,6 +1,6 @@
 (footprint "LCD_240x240_1.54_12" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 0)
+  (tedit 62B7C84C)
   (attr smd)
   (fp_text reference "REF**" (at 0 4.2 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -25,4 +25,9 @@
   (pad "10" smd roundrect (at -2.45 0 90) (size 3 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 550d6148-b27f-4819-913a-1187ee8f2e67))
   (pad "11" smd roundrect (at -3.15 0 90) (size 3 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 3ac110c1-1811-4067-b6c2-bd5f2ace9a08))
   (pad "12" smd roundrect (at -3.85 0.025 90) (size 3 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8e36a2bb-6b6b-458b-8dd0-1aa1904df7a1))
+  (model "${KIPRJMOD}/../Swadge-Parts/package3d/1.54 TFT IPS - Reverse Mount.stp"
+    (offset (xyz -2.55 -0.5 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 180))
+  )
 )
