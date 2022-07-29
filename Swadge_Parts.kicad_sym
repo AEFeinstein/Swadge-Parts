@@ -6538,7 +6538,7 @@
     (property "Value" "RB017A1505A_Connector" (id 1) (at 0 -13.97 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Swadge_Parts:FH26W-15S-0.3SHW(60)" (id 2) (at 0 29.21 0)
+    (property "Footprint" "Swadge_Parts:HCTL HC-FPC-03-10-15RLTAG" (id 2) (at 0 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206141915_HCTL-HC-FPC-03-10-15RLTAG_C3012328.pdf" (id 3) (at 0 24.13 0)
