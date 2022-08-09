@@ -8080,7 +8080,7 @@
     (property "Value" "TS-1109S-A-A" (id 1) (at -4.572 -6.096 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "Swadge_Parts:SW_4-1437565-2" (id 2) (at 0 0 0)
+    (property "Footprint" "Swadge_Parts:TS-1109S-X-X" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110111130_XKB-Connectivity-TS-1109S-A-A_C692466.pdf" (id 3) (at 0 0 0)
