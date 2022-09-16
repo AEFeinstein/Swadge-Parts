@@ -5996,13 +5996,13 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
-  (model "${KIPRJMOD}/../Swadge-Parts/package3d/kidney-shields.wrl"
-    (offset (xyz -45.37 0 1.8))
+  (model "${KIPRJMOD}/../Swadge-Parts/package3d/kidney-shields-black.wrl"
+    (offset (xyz -45.37 0 2.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../Swadge-Parts/package3d/kidney-shields.wrl"
-    (offset (xyz 45.37 0 1.8))
+  (model "${KIPRJMOD}/../Swadge-Parts/package3d/kidney-shields-black.wrl"
+    (offset (xyz 45.37 0 2.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
