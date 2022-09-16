@@ -23,4 +23,9 @@
   (gr_arc (start 0 0) (mid 2.76 0) (end 0 0) (width 0.9))
     ) (tstamp 6be14815-4a7d-42d1-90c7-04c36a9fc25e))
   (pad "2" smd circle (at 0 0) (size 0.95 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0491b3a8-0a88-4be8-8b7a-be3dac501142))
+  (model "${KIPRJMOD}/../Swadge-Parts/package3d/Goertek B4013AM423-098.STEP"
+    (offset (xyz 0 0 1.23))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
 )

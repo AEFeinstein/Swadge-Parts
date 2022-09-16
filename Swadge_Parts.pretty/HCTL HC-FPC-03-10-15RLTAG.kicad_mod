@@ -1876,4 +1876,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KIPRJMOD}/../Swadge-Parts/package3d/RB017A1505A.stp"
+    (offset (xyz 11.2 -25.6 1.225))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )
