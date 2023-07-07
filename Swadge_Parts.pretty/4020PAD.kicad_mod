@@ -31,7 +31,7 @@
   (fp_arc (start -16.496 -18.98) (mid 0 -35.476) (end 16.496 -18.98)
     (stroke (width 0.12) (type default)) (layer "Eco2.User") (tstamp c87193b9-ae35-4565-aba0-6e499d1f5c76))
   (fp_rect (start -2 -1.075) (end 2 0.425)
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.CrtYd") (tstamp d868beb5-bf1b-4933-8ade-5567c8a5e886))
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp d868beb5-bf1b-4933-8ade-5567c8a5e886))
   (pad "1" smd rect (at 1.357 0 180) (size 0.4 0.85) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp c0dcf1cb-199f-42ff-a2dd-d97dcad180d3))
   (pad "2" smd rect (at 0.45233 0 180) (size 0.4 0.85) (layers "F.Cu" "F.Paste" "F.Mask")
