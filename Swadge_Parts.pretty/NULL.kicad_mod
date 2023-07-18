@@ -1,8 +1,12 @@
-(module NULL (layer F.Cu) (tedit 5D741608)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+(footprint "NULL" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f3451859-fd97-422e-bc7b-7d0c8879340a)
   )
-  (fp_text value VAL** (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "VAL**" (at 0 -0.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp aac1656b-435a-4301-b8b6-cc232ef9e9f3)
   )
 )
