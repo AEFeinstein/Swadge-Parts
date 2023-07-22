@@ -6782,6 +6782,12 @@
         (fill (type none))
       )
     )
+    (symbol "MountingHole_1_1"
+      (pin input line (at 0 -2.54 90) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
   )
   (symbol "NAV_SWITCH" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "S" (at -5.08 6.35 0)
