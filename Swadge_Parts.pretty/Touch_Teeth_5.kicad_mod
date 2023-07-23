@@ -9445,7 +9445,7 @@
   (zone (net 0) (net_name "") (layers "F&B.Cu") (tstamp 0a42e18e-d780-40ed-b9cf-1e72e216e8c3) (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon
       (pts
@@ -9577,7 +9577,6 @@
         (xy 32.102627 18.388599)
         (xy 32.200434 17.595603)
         (xy 32.259212 16.798764)
-        (xy 32.278821 16)
       )
     )
   )
