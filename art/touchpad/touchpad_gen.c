@@ -67,13 +67,18 @@ float CenterFunction( float theta )
 	}
 }
 
-int main()
+int main( int argc, char ** argv )
 {
+	if( argc < 2 )
+	{
+		fprintf( stderr, "Error: need file to output.\n" );
+		return -9;
+	}
 	float w = 800;
 	float h = 800;
 	float cx = w/2;
 	float cy = h/2;
-	FILE * f = fopen( "touchpad.svg", "w" );
+	FILE * f = fopen( argv[1]git, "w" );
 	FILE * part = fopen( "../../Swadge_Parts.pretty/Touch_Teeth_5.kicad_mod", "w" );
 	fprintf( f, "<svg version=\"1.1\" width=\"%f\" height=\"%f\" xmlns=\"http://www.w3.org/2000/svg\">\n", w, h );
 	fprintf( part, "(footprint \"Touch_Theeth_5\" (version 20211014) (generator pcbnew)\n\
