@@ -9442,7 +9442,7 @@
         )
         (width 0.1) (fill yes))
     ) (tstamp 5dcdeac6-a8e8-4847-ad06-c2ef1c5dce95))
-  (zone (net 0) (net_name "") (layers "F&B.Cu") (tstamp 0a42e18e-d780-40ed-b9cf-1e72e216e8c3) (hatch edge 0.5)
+  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 0a42e18e-d780-40ed-b9cf-1e72e216e8c3) (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.25) (filled_areas_thickness no)
     (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
