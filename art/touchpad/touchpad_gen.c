@@ -38,21 +38,28 @@ const char * GetGUID()
 
 const float edge_override = .16;  // phase clocking of inside edge
 const int sections = 5;
-const float max_edge = 0.80;  // clearance on outside.
-const float inside_standoff = 0.045; //Clearance between inside and outside.
-const float inside_radius = 0.5;
-const float core_radius = 0.4;
-const float tooth_depth = 1.0;
+const float max_edge = 0.82;  // clearance on outside. Or rather each outside tooth to the other.
+const float inside_standoff = 0.21; //Clearance between inside and outside.
+const float inside_radius_gamma = 0.66;
+const float inside_radius = 0.50;
+const float inside_eat_into_outside = 0.06;
+const float core_radius = 0.31;
+const float tooth_depth = 1.05;
 const float pcbscale = 0.04;
 const float epsilon = 0.02;
 const float edge_width = 0.1; //in mm of width of edge line.
 const float inside_epsilon = 0.002;
-const int teeth = 3;
-const int centerteeth = 10;
-const float inside_phase = 1.1;
+const int teeth = 2;
+const int centerteeth = 5;
+const float inside_phase = 0.325;
+
+const float center_to_outside_phase_offset = 0.315; 
+const float center_to_outside_phase_offset_lead = -0.325; 
+const float trailing_edge_going_back_up_on_outside_pad = 0.02;
 
 float CenterFunction( float theta )
 {
+	theta += 3.14159 * 2;
 	float tzone = centerteeth * theta / 3.14159;
 	tzone += inside_phase;
 	int tza = tzone;
@@ -74,12 +81,12 @@ int main( int argc, char ** argv )
 		fprintf( stderr, "Error: need file to output.\n" );
 		return -9;
 	}
-	float w = 800;
-	float h = 800;
+	float w = 610;
+	float h = 610;
 	float cx = w/2;
 	float cy = h/2;
-	FILE * f = fopen( argv[1]git, "w" );
-	FILE * part = fopen( "../../Swadge_Parts.pretty/Touch_Teeth_5.kicad_mod", "w" );
+	FILE * f = fopen( argv[1], "w" );
+	FILE * part = fopen( "../../Swadge_Parts.pretty/Touch_Teeth_5b.kicad_mod", "w" );
 	fprintf( f, "<svg version=\"1.1\" width=\"%f\" height=\"%f\" xmlns=\"http://www.w3.org/2000/svg\">\n", w, h );
 	fprintf( part, "(footprint \"Touch_Theeth_5\" (version 20211014) (generator pcbnew)\n\
   (layer \"F.Cu\")\n\
@@ -134,6 +141,7 @@ int main( int argc, char ** argv )
 		// Leading Teeth
 		for( toothedge = 0; toothedge < teeth*2; toothedge++ )
 		{
+			int last = toothedge == teeth*2-1;
 			if( (toothedge & 1) == 0 )
 			{
 				// Going Backwards
@@ -151,7 +159,8 @@ int main( int argc, char ** argv )
 			else
 			{
 				// Going forwards
-				for( theta = thetamax-tooth_depth; theta < thetamax; theta += epsilon )
+
+				for( theta = thetamax-tooth_depth; theta < (last?(thetamax-center_to_outside_phase_offset):thetamax); theta += epsilon )
 				{
 					r = ((float)toothedge / (float)(teeth*2)) + (1./(float)(teeth*2)) * (tooth_depth-(thetamax-theta))/tooth_depth;
 					r = (1.0 - (1.0-inside_radius)*r);
@@ -164,12 +173,14 @@ int main( int argc, char ** argv )
 			}
 		}
 
+		theta -= trailing_edge_going_back_up_on_outside_pad;
+
 		// Inside Edge
-		for( ; theta >= thetamin-edge_override; theta -= inside_epsilon )
+		for( ; theta >= thetamin-edge_override+center_to_outside_phase_offset_lead; theta -= inside_epsilon )
 		{
 			float x = cx + sin( theta ) * w/2.0*r;
 			float y = cy + cos( theta ) * h/2.0*r;
-			r = core_radius + (inside_radius-core_radius)*CenterFunction(theta);
+			r = core_radius + (inside_radius-core_radius+inside_eat_into_outside)*CenterFunction(theta);
 			fprintf( f, "%f,%f ", x, y );
 			printf( "D %f / %f\n", theta, r );
 			fprintf( part, "(xy %f %f)\n", x*pcbscale-pinx, y*pcbscale-piny );
@@ -177,7 +188,7 @@ int main( int argc, char ** argv )
 
 		//Trailing Teeth
 		for( toothedge = 0; toothedge < teeth*2; toothedge++ )
-		{
+		{ 
 			if( (toothedge & 1) == 0 )
 			{
 				// Going Backwards
@@ -238,7 +249,9 @@ int main( int argc, char ** argv )
 	fprintf( f, "<polygon points=\"" );
 	for( theta = 0; theta < 6.283185; theta += inside_epsilon )
 	{
-		r = core_radius + (inside_radius-core_radius)*CenterFunction(theta) - inside_standoff;
+		float center_whobble_radius = (inside_radius-core_radius)*CenterFunction(theta);
+		center_whobble_radius = powf( center_whobble_radius, inside_radius_gamma ) - inside_standoff;
+		r = core_radius + center_whobble_radius + inside_eat_into_outside;
 		float x = cx + sin( theta ) * w/2.0*r;
 		float y = cy + cos( theta ) * h/2.0*r;
 		fprintf( f, "%f,%f ", x, y );
