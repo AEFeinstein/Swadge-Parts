@@ -61,7 +61,7 @@
   (pad "12" smd roundrect (at 0.5 -0.9125) (size 0.3 0.625) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bbb15673-6d42-42b8-9d51-7515b3ad9ee9))
   (pad "13" smd roundrect (at 0 -0.9125) (size 0.3 0.625) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0f3c9e3a-9c59-4881-b27a-d0e982b3ea8e))
   (pad "14" smd roundrect (at -0.5 -0.9125) (size 0.3 0.625) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e83e0227-ac0f-4180-82bd-68d3a7b56476))
-  (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.wrl"
+  (model "${KIPRJMOD}/../Swadge-Parts/package3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
