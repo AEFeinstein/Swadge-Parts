@@ -15448,24 +15448,6 @@
 			)
 		)
 		(symbol "ESP32-S2-MINI-1_0_0"
-			(pin power_in line
-				(at 0 -43.18 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 0 -43.18 90)
 				(length 2.54) hide
@@ -15894,6 +15876,26 @@
 				)
 			)
 		)
+		(symbol "ESP32-S2-MINI-1_1_0"
+			(pin input line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ESP32-S2-MINI-1_1_1"
 			(text "ESP32-S2-MINI-1"
 				(at -10.16 0 0)
@@ -16281,7 +16283,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 43.18 270)
 				(length 2.54)
 				(name "3V3"
@@ -25505,7 +25507,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 2.54 0 180)
 				(length 2.54)
 				(name ""
@@ -25523,7 +25525,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 2.54 -2.54 180)
 				(length 2.54)
 				(name ""
@@ -28454,7 +28456,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name "OUT"
