@@ -1,0 +1,169 @@
+(footprint "RK10J11E0034"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.62 7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c963e4e3-6127-4845-acde-b262b0bb2f59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RK10J11E0034"
+		(at -8 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c6501956-156f-4a05-b201-665247d08b2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f12728be-5f6b-4d8a-a340-39886612d3d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb609e96-2dce-42b6-9c1f-5eb937842bf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1db9f8ba-6cb6-4884-abc2-2843978f6bdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6 0)
+		(end 5.35 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "940c48aa-7d06-41cd-a529-f010c04823f2")
+	)
+	(fp_rect
+		(start 5.35 0)
+		(end 7 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e2b2fd8b-e831-45bd-aafa-c8773fa00710")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b6821563-8d76-41e3-9c2d-ae082eedf8ee")
+	)
+	(pad "" thru_hole oval
+		(at -5 -2.5)
+		(size 1.1 1.6)
+		(drill oval 0.7 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "cb19dda9-a2f8-4c4a-83ad-f5d9bb00e30d")
+	)
+	(pad "" thru_hole circle
+		(at -2 7.5)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "039b8188-f8bc-4eb5-9b8f-055ab09c89b7")
+	)
+	(pad "" thru_hole circle
+		(at 2 7.5)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9f1593c-b8f5-4e84-968c-4496a822bdfc")
+	)
+	(pad "" thru_hole oval
+		(at 5 -2.5)
+		(size 1.1 1.6)
+		(drill oval 0.7 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "0efe27a2-86e3-4bad-9d75-47a35f60cb00")
+	)
+	(pad "1" thru_hole circle
+		(at -4 7.5)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dac57e9b-0ddd-4d71-bb70-2e86cc837d0d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 7.5)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fe9d095-e390-49ee-9434-e0bfd73acdef")
+	)
+	(pad "3" thru_hole circle
+		(at 4 7.5)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d9e710a-830d-47f9-8941-b58062e8d9a4")
+	)
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/RK10J1_E.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
