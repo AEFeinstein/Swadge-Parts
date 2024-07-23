@@ -1,28 +1,158 @@
-(footprint "INGHAi GSPK2308P-8R0.5W" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 61D0F9EC)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9dc08a45-9724-4dda-9b26-06218c55fbbb)
-  )
-  (fp_text value "INGHAi GSPK2308P-8R0.5W" (at 0 1 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3a258838-6960-40e4-bf09-64523682708a)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp b710ca7b-c496-416d-8940-df12f0a94383)
-  )
-  (fp_line (start -6 -2) (end -4 -2) (layer "F.SilkS") (width 0.12) (tstamp 7cbe72cc-4be6-4752-af19-8cc8345e60b9))
-  (fp_line (start -5 -1) (end -5 -3) (layer "F.SilkS") (width 0.12) (tstamp cabed1f3-d928-4efc-8f9c-a475fbc4e7d9))
-  (fp_line (start 4 -2) (end 6 -2) (layer "F.SilkS") (width 0.12) (tstamp d91632bc-0e5d-47bf-a5cb-b47810ab20e0))
-  (fp_circle (center 0 0) (end 11.5 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 4833f485-20ea-4486-ac96-8b3dd59d5c88))
-  (pad "1" thru_hole circle (at -5 0) (size 1.524 1.524) (drill 1.2) (layers *.Cu *.Mask) (tstamp ab196073-ff66-4138-9f54-8a05051f9283))
-  (pad "2" thru_hole circle (at 5 0) (size 1.524 1.524) (drill 1.2) (layers *.Cu *.Mask) (tstamp 706f613e-d87b-44ba-93f8-c5e6ce859df4))
-  (model "${KIPRJMOD}/../Swadge-Parts/package3d/spk.step"
-    (offset (xyz 0 0 8.586))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "INGHAi GSPK2308P-8R0.5W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9dc08a45-9724-4dda-9b26-06218c55fbbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INGHAi GSPK2308P-8R0.5W"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a258838-6960-40e4-bf09-64523682708a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bb93cb3-f8ae-4db0-bd83-12261b14cc6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2f8b4ff-4b76-4fe7-86c8-b65513a2e748")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcdc1597-5cc8-43e9-93b0-6360c09c33bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -2)
+		(end -4 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cbe72cc-4be6-4752-af19-8cc8345e60b9")
+	)
+	(fp_line
+		(start -5 -1)
+		(end -5 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cabed1f3-d928-4efc-8f9c-a475fbc4e7d9")
+	)
+	(fp_line
+		(start 4 -2)
+		(end 6 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d91632bc-0e5d-47bf-a5cb-b47810ab20e0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ba6016e5-5a9d-45a3-990d-9defdcdeaa31")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4833f485-20ea-4486-ac96-8b3dd59d5c88")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b710ca7b-c496-416d-8940-df12f0a94383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 1.524 1.524)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ab196073-ff66-4138-9f54-8a05051f9283")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.524 1.524)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "706f613e-d87b-44ba-93f8-c5e6ce859df4")
+	)
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/spk.step"
+		(offset
+			(xyz 0 0 8.586)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )
