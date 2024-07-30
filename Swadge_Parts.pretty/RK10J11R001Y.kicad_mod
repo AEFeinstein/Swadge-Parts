@@ -1,0 +1,173 @@
+(footprint "RK10J11R001Y"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.62 7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c963e4e3-6127-4845-acde-b262b0bb2f59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RK10J11R001Y"
+		(at -8 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c6501956-156f-4a05-b201-665247d08b2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f12728be-5f6b-4d8a-a340-39886612d3d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb609e96-2dce-42b6-9c1f-5eb937842bf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1db9f8ba-6cb6-4884-abc2-2843978f6bdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.1 -4.7)
+		(end 1.1 -3.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "c29527cc-76a9-4147-ac17-14a0a2df8a09")
+	)
+	(fp_rect
+		(start -1.1 3.7)
+		(end 1.1 4.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "d868ee7e-6990-43da-9248-a25c8ac9f578")
+	)
+	(fp_rect
+		(start -6 0)
+		(end 5.35 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "940c48aa-7d06-41cd-a529-f010c04823f2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b6821563-8d76-41e3-9c2d-ae082eedf8ee")
+	)
+	(pad "" smd roundrect
+		(at -6.1 -2.5)
+		(size 2.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
+		(thermal_bridge_angle 45)
+		(uuid "cb19dda9-a2f8-4c4a-83ad-f5d9bb00e30d")
+	)
+	(pad "" smd roundrect
+		(at -2 9)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1785714286)
+		(uuid "039b8188-f8bc-4eb5-9b8f-055ab09c89b7")
+	)
+	(pad "" smd roundrect
+		(at 2 9)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1785714286)
+		(uuid "c9f1593c-b8f5-4e84-968c-4496a822bdfc")
+	)
+	(pad "" smd roundrect
+		(at 6.1 -2.5)
+		(size 2.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
+		(thermal_bridge_angle 45)
+		(uuid "0efe27a2-86e3-4bad-9d75-47a35f60cb00")
+	)
+	(pad "1" smd roundrect
+		(at -4 9)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1785714286)
+		(uuid "dac57e9b-0ddd-4d71-bb70-2e86cc837d0d")
+	)
+	(pad "2" smd roundrect
+		(at 0 9)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1785714286)
+		(uuid "0fe9d095-e390-49ee-9434-e0bfd73acdef")
+	)
+	(pad "3" smd roundrect
+		(at 4 9)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1785714286)
+		(uuid "3d9e710a-830d-47f9-8941-b58062e8d9a4")
+	)
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/RK10J1_R.STEP"
+		(offset
+			(xyz 0 0 0.22)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
