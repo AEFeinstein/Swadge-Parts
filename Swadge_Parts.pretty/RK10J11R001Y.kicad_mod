@@ -63,7 +63,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_rect
 		(start -1.1 -4.7)
 		(end 1.1 -3.7)
@@ -86,27 +86,46 @@
 		(layer "Edge.Cuts")
 		(uuid "d868ee7e-6990-43da-9248-a25c8ac9f578")
 	)
-	(fp_rect
-		(start -6 0)
+	(fp_line
+		(start -6 3.75)
+		(end -6 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a934570b-a5ff-45e8-9c05-a12148c91b51")
+	)
+	(fp_line
+		(start -6 7.5)
 		(end 5.35 7.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "F.CrtYd")
-		(uuid "940c48aa-7d06-41cd-a529-f010c04823f2")
+		(uuid "0f5ae057-bb5e-41f8-9755-2cbf709aef92")
 	)
-	(fp_circle
-		(center 0 0)
-		(end 7 0)
+	(fp_line
+		(start 5.35 7.5)
+		(end 5.401328 4.570355)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "F.CrtYd")
-		(uuid "b6821563-8d76-41e3-9c2d-ae082eedf8ee")
+		(uuid "ba660b1e-e74c-41cb-a46d-26032588b7db")
+	)
+	(fp_arc
+		(start -5.999999 3.75)
+		(mid 0.507787 -7.05724)
+		(end 5.401328 4.570355)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d83e885-e9a4-47bd-aef8-0b3320ef2daa")
 	)
 	(pad "" smd roundrect
 		(at -6.1 -2.5)
