@@ -1,0 +1,225 @@
+(footprint "C_Radial_D4_L5.4_P3.321"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "C**"
+		(at 0 -3.048 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4901b3cd-ae7d-4571-8a28-8546bcb1bcc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C_Radial_D4_L5.4_P3.321"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b56cf5ea-ea47-48ab-b83e-bf729a18a4f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2717e10d-944a-4c7a-8583-f0acc7338360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e8538ef-8a24-4aca-bf1f-8be2da58c7b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d78f7f2-3b5b-4683-beb5-d53fcb8e57ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.226 -1.226)
+		(end -1.226 -2.226)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a88776bb-9a82-4e44-946b-2c483ff00073")
+	)
+	(fp_line
+		(start -2.226 1.226)
+		(end -2.226 -1.226)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6fd4213b-4d56-469e-b75c-18bab763d3c9")
+	)
+	(fp_line
+		(start -1.226 -2.226)
+		(end 2.226 -2.226)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "92fb7b13-f45b-4cfa-aec8-1ee61d3f2ae1")
+	)
+	(fp_line
+		(start -1.226 2.226)
+		(end -2.226 1.226)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a7f4e56-0a60-4dff-a8d9-e4f6771c0972")
+	)
+	(fp_line
+		(start -1.226 2.226)
+		(end 2.226 2.226)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4fab9df8-2ede-4898-82a1-da5b58f38ccc")
+	)
+	(fp_line
+		(start 2.226 2.226)
+		(end 2.226 -2.226)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23a608e4-fed4-40ed-bbdf-e07e03a2e39e")
+	)
+	(fp_line
+		(start -2.226 -1.226)
+		(end -1.226 -2.226)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8eefd8a6-53b1-49ee-938b-2d575f86fd9e")
+	)
+	(fp_line
+		(start -2.226 1.226)
+		(end -2.226 -1.226)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d9c2397-667b-4473-b026-9cfe51254cc6")
+	)
+	(fp_line
+		(start -1.226 -2.226)
+		(end 2.226 -2.226)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "26690f12-3aae-416e-98de-ffff3aea992f")
+	)
+	(fp_line
+		(start -1.226 2.226)
+		(end -2.226 1.226)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "17b5d868-9621-4ff3-89ce-3d0a85209350")
+	)
+	(fp_line
+		(start -1.226 2.226)
+		(end 2.226 2.226)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "18999d5e-7152-47a1-90b5-97a0487c7c47")
+	)
+	(fp_line
+		(start 2.226 2.226)
+		(end 2.226 -2.226)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "859c51d9-70ae-47e6-a74f-33f4201b921b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09e8280e-dea3-4e53-806b-5cd30c8b9d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.661 0)
+		(size 2.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.051)
+		(thermal_bridge_angle 45)
+		(uuid "6f9b5f33-af73-4831-bcef-e960c223f55b")
+	)
+	(pad "2" smd rect
+		(at 1.661 0)
+		(size 2.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.051)
+		(thermal_bridge_angle 45)
+		(uuid "b093e3c9-6823-41f3-bf23-86cff7155cbc")
+	)
+	(group ""
+		(uuid "f432acad-18ab-40e6-a3ab-dedcca14a435")
+		(members "23a608e4-fed4-40ed-bbdf-e07e03a2e39e" "4fab9df8-2ede-4898-82a1-da5b58f38ccc"
+			"6fd4213b-4d56-469e-b75c-18bab763d3c9" "92fb7b13-f45b-4cfa-aec8-1ee61d3f2ae1"
+			"9a7f4e56-0a60-4dff-a8d9-e4f6771c0972" "a88776bb-9a82-4e44-946b-2c483ff00073"
+		)
+	)
+)
