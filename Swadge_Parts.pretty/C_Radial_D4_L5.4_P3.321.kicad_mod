@@ -260,4 +260,15 @@
 			"9a7f4e56-0a60-4dff-a8d9-e4f6771c0972" "a88776bb-9a82-4e44-946b-2c483ff00073"
 		)
 	)
+	(model "C:/Users/eanthony/Documents/GitHub/Swadge-Parts/package3d/RVT1HR47M0405.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
