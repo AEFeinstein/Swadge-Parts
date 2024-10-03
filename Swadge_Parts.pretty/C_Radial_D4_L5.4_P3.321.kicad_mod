@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "https://www.lcsc.com/datasheet/lcsc_datasheet_2109290630_Honor-Elec-RVT1HR47M0405_C2895732.pdf")
 	(property "Reference" "C**"
 		(at 0 -3.048 0)
 		(unlocked yes)
@@ -27,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Swadge_Parts:C_Radial_D4_L5.4_P3.321"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +41,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2109290630_Honor-Elec-RVT1HR47M0405_C2895732.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -53,7 +54,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" " 470nF 50V ±20% SMD,D4xL5.4mm Aluminum Electrolytic Capacitors"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -127,6 +128,17 @@
 		(layer "F.SilkS")
 		(uuid "23a608e4-fed4-40ed-bbdf-e07e03a2e39e")
 	)
+	(fp_circle
+		(center -2.0828 2.0574)
+		(end -2.032 2.159)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ab21fb10-48cf-410c-80a6-8dfdeb6c64c7")
+	)
 	(fp_line
 		(start -2.226 -1.226)
 		(end -1.226 -2.226)
@@ -186,6 +198,32 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "859c51d9-70ae-47e6-a74f-33f4201b921b")
+	)
+	(fp_text user "+"
+		(at -1.9812 1.7018 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0128f9a2-8869-4775-bc0d-b2de00b482c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 0.8382 1.651 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8ce1f3b3-8057-4d60-bb50-08d12decb79c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
