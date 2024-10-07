@@ -1,0 +1,171 @@
+(footprint "C_Radial_D6.3_L5.8_P5.34"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.lcsc.com/datasheet/lcsc_datasheet_2307141717_ROQANG-RVE1A471M0605_C7465562.pdf")
+	(property "Reference" "C**"
+		(at -0.0254 -4.0894 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4901b3cd-ae7d-4571-8a28-8546bcb1bcc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C_Radial_D6.3_L5.8_P5.34"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b56cf5ea-ea47-48ab-b83e-bf729a18a4f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Swadge_Parts:C_Radial_D4_L5.4_P3.321"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2717e10d-944a-4c7a-8583-f0acc7338360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2307141717_ROQANG-RVE1A471M0605_C7465562.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e8538ef-8a24-4aca-bf1f-8be2da58c7b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " 470uF 50V ±20% SMD,D4xL5.4mm Aluminum Electrolytic Capacitors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d78f7f2-3b5b-4683-beb5-d53fcb8e57ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.794 2.7686)
+		(end -2.7432 2.8702)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ab21fb10-48cf-410c-80a6-8dfdeb6c64c7")
+	)
+	(fp_poly
+		(pts
+			(xy 3.286 -3.286) (xy -1.786 -3.286) (xy -3.286 -1.786) (xy -3.286 1.786) (xy -1.786 3.286) (xy 3.286 3.286)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "87174a5f-69e7-4673-bd48-6653411fddc2")
+	)
+	(fp_poly
+		(pts
+			(xy 3.286 -3.286) (xy -1.786 -3.286) (xy -3.286 -1.786) (xy -3.286 1.786) (xy -1.786 3.286) (xy 3.286 3.286)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5d2e398e-5d99-45ce-997a-ded7996eaad2")
+	)
+	(fp_text user "+"
+		(at -2.9972 2.032 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0128f9a2-8869-4775-bc0d-b2de00b482c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 1.5748 2.159 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8ce1f3b3-8057-4d60-bb50-08d12decb79c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09e8280e-dea3-4e53-806b-5cd30c8b9d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.67 0)
+		(size 3.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.051)
+		(thermal_bridge_angle 45)
+		(uuid "6f9b5f33-af73-4831-bcef-e960c223f55b")
+	)
+	(pad "2" smd rect
+		(at 2.67 0)
+		(size 3.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.051)
+		(thermal_bridge_angle 45)
+		(uuid "b093e3c9-6823-41f3-bf23-86cff7155cbc")
+	)
+	(model "C:/Users/eanthony/Documents/GitHub/Swadge-Parts/package3d/RVT1HR47M0405.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
