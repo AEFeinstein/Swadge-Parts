@@ -3,6 +3,7 @@
 from kiutils.symbol import SymbolLib
 from kiutils.symbol import Symbol
 from kiutils.symbol import Property
+from kiutils.symbol import Effects
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import re
@@ -65,38 +66,36 @@ def main():
     symLibFile = 'Swadge_Parts.kicad_sym'
     symbolLib: SymbolLib = SymbolLib().from_file(symLibFile)
 
+    costKey = 'Cost@2500'
+
     # For each symbol
     symIdx: int = 0
     symbol: Symbol
     for symbol in symbolLib.symbols:
 
-        # Keep track if the price was updated
-        priceUpdated: bool = False
+        # Remove all cost properties
+        symbol.properties = [x for x in symbol.properties if not (
+            'Cost100' == x.key or x.key.startswith(costKey))]
 
-        # For each property
+        # search for ah LCSC ID
+        lcscId: str = None
         property: Property
         for property in symbol.properties:
-
-            # Remove old Cost100 field
-            if 'Cost100' == property.key:
-                print('Remove Cost100 from ' + symbol.entryName)
-                symbol.properties.remove(property)
-
-            # Add new Cost@2500 field from LCSC part number
             if 'LCSC' == property.key.upper() and property.value:
-                print('%3d%% Fetching price for %s (%s)' %
-                      ((100 * symIdx) / float(len(symbolLib.symbols)), symbol.entryName, property.value))
-                symbol.properties.append(
-                    Property('Cost@2500', str(getLcscCost(property.value, 2500)), showName=False))
-                priceUpdated = True
+                lcscId = property.value
 
-        # Print for symbols without LCSC
-        if not priceUpdated:
-            print('%3d%% No LCSC for %s' %
-                  ((100 * symIdx) / float(len(symbolLib.symbols)), symbol.entryName))
-
-        # Increment to track progress
+        # Progress tracking
+        pctDone = (100 * symIdx) / float(len(symbolLib.symbols))
         symIdx += 1
+
+        # If the part has a LCSC ID, fetch the price
+        if lcscId:
+            print('%3d%% Fetching price for %s (%s)' %
+                  (pctDone, symbol.entryName, lcscId))
+            symbol.properties.append(
+                Property(costKey, str(getLcscCost(lcscId, 2500)), showName=False, effects=Effects(hide=True)))
+        else:
+            print('%3d%% No LCSC for %s' % (pctDone, symbol.entryName))
 
     # Write the library with the new prices
     symbolLib.to_file(symLibFile)
