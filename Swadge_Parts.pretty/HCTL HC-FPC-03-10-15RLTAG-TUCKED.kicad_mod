@@ -7840,24 +7840,24 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Swadge-Parts/package3d/WFH-2000105.STEP"
 		(offset
-			(xyz 0 -0.2 0)
+			(xyz -12.2 -5.7 -1.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -180 -180)
 		)
 	)
 	(model "${KIPRJMOD}/../Swadge-Parts/package3d/RB017A1505A.stp"
 		(offset
-			(xyz 11.2 -25.6 1.225)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -90)
+			(xyz -90 -0 -90)
 		)
 	)
 )
