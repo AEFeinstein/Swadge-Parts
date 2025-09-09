@@ -246,7 +246,7 @@
 	(pad "1" smd custom
 		(at 8 -11.5)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -565,7 +565,7 @@
 	(pad "2" smd custom
 		(at -7 -12)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -866,7 +866,7 @@
 	(pad "3" smd custom
 		(at -13.5 4)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -1172,7 +1172,7 @@
 	(pad "4" smd custom
 		(at 0 14)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -1494,7 +1494,7 @@
 	(pad "5" smd custom
 		(at 13 5)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -1830,7 +1830,7 @@
 	(pad "6" smd custom
 		(at 0 0)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu")
 		(options
 			(clearance outline)
 			(anchor circle)
