@@ -7849,15 +7849,15 @@
 			(xyz -0 -180 -180)
 		)
 	)
-	(model "${KIPRJMOD}/../Swadge-Parts/package3d/RB017A1505A.stp"
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/SwadgeLCD-Folded.step"
 		(offset
-			(xyz 0 0 1)
+			(xyz 0 40 -1.37)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -90)
+			(xyz -0 -0 -0)
 		)
 	)
 )
