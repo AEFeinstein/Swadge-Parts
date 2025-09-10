@@ -157,7 +157,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "b093e3c9-6823-41f3-bf23-86cff7155cbc")
 	)
-	(model "C:/Users/eanthony/Documents/GitHub/Swadge-Parts/package3d/RVT1HR47M0405.STEP"
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/RVT1HR47M0405.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
