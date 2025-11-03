@@ -3330,6 +3330,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p28.pdf"
@@ -3338,6 +3339,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "BATT HOLDER AA 1 CELL PC PIN"
@@ -3346,6 +3348,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey" "36-2460-ND"
@@ -3354,6 +3357,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Substitutable" "Y"
@@ -3362,6 +3366,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Notes" "Use through-hole AA Battery Holder in Style of Keystone 2460. Two fins hold batteries, not four fins."
@@ -3370,6 +3375,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5370863"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ 2.5k" "0.9266"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Swadge_Parts:BCAAPC"
@@ -30303,7 +30327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost@2500" "0.0393"
+		(property "Cost @ 2.5k" "0.0393"
 			(at 0 0 0)
 			(effects
 				(font
