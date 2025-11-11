@@ -1,7 +1,7 @@
 (footprint "C_Radial_D6.3_L5.8_P5.34"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.lcsc.com/datasheet/lcsc_datasheet_2307141717_ROQANG-RVE1A471M0605_C7465562.pdf")
 	(property "Reference" "C**"
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b56cf5ea-ea47-48ab-b83e-bf729a18a4f6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Swadge_Parts:C_Radial_D4_L5.4_P3.321"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2717e10d-944a-4c7a-8583-f0acc7338360")
 		(effects
 			(font
 				(size 1 1)
@@ -75,7 +62,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ab21fb10-48cf-410c-80a6-8dfdeb6c64c7")
 	)
@@ -87,7 +74,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "87174a5f-69e7-4673-bd48-6653411fddc2")
 	)
@@ -99,7 +86,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5d2e398e-5d99-45ce-997a-ded7996eaad2")
 	)
@@ -144,7 +131,7 @@
 	(pad "1" smd rect
 		(at -2.67 0)
 		(size 3.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.051)
 		(thermal_bridge_angle 45)
 		(uuid "6f9b5f33-af73-4831-bcef-e960c223f55b")
@@ -152,12 +139,13 @@
 	(pad "2" smd rect
 		(at 2.67 0)
 		(size 3.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.051)
 		(thermal_bridge_angle 45)
 		(uuid "b093e3c9-6823-41f3-bf23-86cff7155cbc")
 	)
-	(model "${KIPRJMOD}/../Swadge-Parts/package3d/RVT1HR47M0405.STEP"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/CP_Elec_6.3x5.8.step"
 		(offset
 			(xyz 0 0 0)
 		)

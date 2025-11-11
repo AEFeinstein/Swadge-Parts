@@ -221,27 +221,4 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/eanthony/Documents/GitHub/Super-2026-Swadge-HW/Swadge-Parts/package3d/LED_0603_1608Metric_RED.STEP"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/Users/eanthony/Documents/GitHub/Super-2026-Swadge-HW/Swadge-Parts/package3d/LED_0603_1608Metric_BLUE.STEP"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
