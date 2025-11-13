@@ -314,13 +314,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Swadge-Parts/package3d/HRO_TYPE-C-31-M-12.step"
 		(offset
-			(xyz -4.47 -3.65 0)
+			(xyz -4.47 -4.05 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

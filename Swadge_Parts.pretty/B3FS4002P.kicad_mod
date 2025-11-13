@@ -400,13 +400,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Swadge-Parts/package3d/B3FS_4002P.step"
 		(offset
-			(xyz -1.1 0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

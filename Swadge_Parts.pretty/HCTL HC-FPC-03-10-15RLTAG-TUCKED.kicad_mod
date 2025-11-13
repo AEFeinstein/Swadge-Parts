@@ -7544,24 +7544,24 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Swadge-Parts/package3d/WFH-2000105.STEP"
 		(offset
-			(xyz -12.2 -5.7 -1.6)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -180 -180)
-		)
-	)
-	(model "${KIPRJMOD}/../Swadge-Parts/package3d/SwadgeLCD-Folded.step"
-		(offset
-			(xyz 0 40 -1.37)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/SwadgeLCD-Folded.step"
+		(offset
+			(xyz 11.9 -46 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -180)
 		)
 	)
 )
