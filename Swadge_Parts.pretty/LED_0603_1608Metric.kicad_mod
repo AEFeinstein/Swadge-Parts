@@ -51,17 +51,6 @@
 			)
 		)
 	)
-	(property "LCSC" "C5355458"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(uuid "7ee57514-c240-48f3-9e3c-c818fdbe473b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
 	(attr smd)
 	(fp_line
 		(start -1.485 -0.735)
@@ -210,7 +199,6 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Swadge-Parts/package3d/LED_0603_1608Metric.step"
-		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
