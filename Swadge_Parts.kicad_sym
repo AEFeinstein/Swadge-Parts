@@ -30098,6 +30098,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "SK6812-SIDE-A"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 1.016)
 		)
@@ -30113,7 +30116,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 7.62 -6.35 0)
+			(at 10.16 -6.604 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -30126,6 +30129,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
@@ -30134,6 +30138,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -30142,6 +30147,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
@@ -30150,6 +30156,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Substitutable" "Y"
@@ -30158,6 +30165,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Notes" ""
@@ -30166,18 +30174,20 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 0 0 0)
+			(at 19.558 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 0 0 0)
+			(at 13.208 7.112 0)
 			(effects
 				(font
 					(size 1 1)
