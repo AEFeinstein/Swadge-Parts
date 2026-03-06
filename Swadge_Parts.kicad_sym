@@ -19966,11 +19966,14 @@
 		(embedded_fonts no)
 	)
 	(symbol "FS-1540"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SPK"
-			(at 0 6.35 0)
+			(at -0.254 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19978,7 +19981,7 @@
 			)
 		)
 		(property "Value" "FS-1540"
-			(at 0 -10.16 0)
+			(at 0 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19995,7 +19998,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C482341.pdf"
-			(at 0 0 0)
+			(at 0.254 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20124,10 +20127,12 @@
 					)
 				)
 			)
+		)
+		(symbol "FS-1540_1_1"
 			(pin input line
 				(at -3.81 -1.27 0)
 				(length 2.54)
-				(name "2"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20145,7 +20150,7 @@
 			(pin input line
 				(at 0 -5.08 90)
 				(length 3.302)
-				(name "3"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20163,7 +20168,7 @@
 			(pin input line
 				(at 1.27 -5.08 90)
 				(length 3.302)
-				(name "4"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
