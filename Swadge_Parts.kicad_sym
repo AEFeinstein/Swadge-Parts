@@ -3056,7 +3056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+		(property "Footprint" "Swadge_Parts:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
 			(at 7.62 -13.97 0)
 			(effects
 				(font

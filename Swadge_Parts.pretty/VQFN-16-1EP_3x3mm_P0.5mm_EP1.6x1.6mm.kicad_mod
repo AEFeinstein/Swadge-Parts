@@ -516,7 +516,7 @@
 		(uuid "dc14d016-44ee-4482-aaa4-75d18d79db55")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Swadge-Parts/package3d/VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step"
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/QFN-16_L3.0-W3.0-H0.9-P0.50.step"
 		(offset
 			(xyz 0 0 0)
 		)
