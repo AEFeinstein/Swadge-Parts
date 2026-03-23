@@ -55,7 +55,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_poly
 		(pts
 			(xy 3.349095 12.761522) (xy 3.349094 12.761522) (xy 3.349095 12.761522)

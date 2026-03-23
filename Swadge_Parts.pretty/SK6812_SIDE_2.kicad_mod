@@ -58,7 +58,7 @@
 		(end 2.5 1.3)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
@@ -164,15 +164,15 @@
 		(uuid "b5f26a3a-a728-4165-bbc8-160e710c3f0f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Swadge-Parts/package3d/SK6812-cube.step"
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/LED-SMD_4P-L4.0-W1.6-L.step"
 		(offset
-			(xyz -2 -1.1 0)
+			(xyz 0 -0.45 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
