@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b61de5b1-8b3a-41b7-97a8-f201e5d50982")
+		(uuid "323d12d7-9a85-42b6-991c-86177ae4785e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "9162f12f-caf0-4332-8bb2-5320cc52ddd3")
+		(uuid "bf481ee7-6c22-4df3-94eb-5d1b8f4bd9ab")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e0834ffd-fcfc-4035-b056-8e60b064c41e")
+		(uuid "dfe8bf57-f045-41ed-bbcc-599301d83dd6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "03f4d6b6-7dd2-42ba-baf4-972916f69c7b")
+		(uuid "4e99bfc1-f98e-4eef-a8d0-506d525f79b5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,12 +60,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "24288b50-6dd0-465e-960a-b4700781cfc4")
+		(uuid "7336ff37-15fe-42f0-ae6c-6b3f358bf462")
 	)
 	(pad "1" smd custom
 		(at 42.83 14.21)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -81,12 +81,12 @@
 				(fill yes)
 			)
 		)
-		(uuid "dd6484d4-1e35-47af-855c-62d2e5c9f0d0")
+		(uuid "d30ab8a0-79a2-4344-9849-f1918cff4c6e")
 	)
 	(pad "2" smd custom
 		(at 44.45 7.77)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -102,12 +102,12 @@
 				(fill yes)
 			)
 		)
-		(uuid "1605a496-42d6-4b1d-9315-561d7be0656a")
+		(uuid "5018bb1d-cfe4-4f72-8cc7-e4ae9d8347e5")
 	)
 	(pad "3" smd custom
 		(at 45.06 1.19)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -123,12 +123,12 @@
 				(fill yes)
 			)
 		)
-		(uuid "537b5add-a5d8-41c4-afaa-4d0dc29cb558")
+		(uuid "4ea5062f-7b71-44ed-bb6a-ebb172fd3913")
 	)
 	(pad "4" smd custom
 		(at 44.79 -5.37)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -146,12 +146,12 @@
 				(fill yes)
 			)
 		)
-		(uuid "bd9d1300-ab29-40d9-b8c5-680c73480fdf")
+		(uuid "ee25916c-fffa-4f1d-b61a-bbc70fb53d1d")
 	)
 	(pad "5" smd custom
 		(at 43.47 -11.88)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -169,7 +169,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "d2acf2a3-26f3-4663-a14f-97ac84822f95")
+		(uuid "3bcd3e0e-19fc-46a8-aab9-db6211d62e4d")
 	)
 	(embedded_fonts no)
 )

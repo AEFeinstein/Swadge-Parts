@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e8a0ffc2-ebc2-475c-a5a2-da25be6d9b78")
+		(uuid "41109105-d97c-422c-b398-e8c4d8a11787")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d1d4bc36-f496-402d-bc1e-dfc0438bec73")
+		(uuid "11191f25-9d3e-47c5-8260-e36f75cba5cf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b1c1d42c-3384-4958-9169-f9193f98a11c")
+		(uuid "3882b2f4-0788-4ef1-aafd-5b4f241ff0f0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f0b0fb5-26ec-45a5-baa0-01b369568685")
+		(uuid "fb7a723f-ef7b-4847-a21f-57a4ea49171b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,7 +65,7 @@
 	(pad "1" smd custom
 		(at -42.66 14.57)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -86,7 +86,7 @@
 	(pad "2" smd custom
 		(at -44.37 8.1)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -107,7 +107,7 @@
 	(pad "3" smd custom
 		(at -44.94 1.57)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -128,7 +128,7 @@
 	(pad "4" smd custom
 		(at -44.73 -5.15)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -151,7 +151,7 @@
 	(pad "5" smd custom
 		(at -43.41 -11.67)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
