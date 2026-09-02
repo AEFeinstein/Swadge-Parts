@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "323d12d7-9a85-42b6-991c-86177ae4785e")
+		(uuid "e60b6f9b-4d5e-4f7f-8036-7d1d0f148bc8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "bf481ee7-6c22-4df3-94eb-5d1b8f4bd9ab")
+		(uuid "bab96ac2-4c06-4ea9-93ea-7d5ea700d417")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dfe8bf57-f045-41ed-bbcc-599301d83dd6")
+		(uuid "3416c7bd-4215-4931-ad4f-6dfee1c1a7b4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4e99bfc1-f98e-4eef-a8d0-506d525f79b5")
+		(uuid "94db76ff-ad0d-4fcd-b553-32abdb542c84")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,8 +59,8 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.Fab")
-		(uuid "7336ff37-15fe-42f0-ae6c-6b3f358bf462")
+		(layer "Dwgs.User")
+		(uuid "5bd1486f-dc53-4913-bdb2-9768a3d0eafb")
 	)
 	(pad "1" smd custom
 		(at 42.83 14.21)
@@ -81,7 +81,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "d30ab8a0-79a2-4344-9849-f1918cff4c6e")
+		(uuid "e22e90e2-1760-4050-af36-5d0a988c163b")
 	)
 	(pad "2" smd custom
 		(at 44.45 7.77)
@@ -102,7 +102,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "5018bb1d-cfe4-4f72-8cc7-e4ae9d8347e5")
+		(uuid "ab609bcb-f7b8-4fec-b7a7-84bfb55db4cb")
 	)
 	(pad "3" smd custom
 		(at 45.06 1.19)
@@ -123,7 +123,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "4ea5062f-7b71-44ed-bb6a-ebb172fd3913")
+		(uuid "0cc7a4f1-d7b4-4bbe-b41c-7ffc3201aa9b")
 	)
 	(pad "4" smd custom
 		(at 44.79 -5.37)
@@ -146,7 +146,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "ee25916c-fffa-4f1d-b61a-bbc70fb53d1d")
+		(uuid "563cc7ed-e332-410b-8aa3-920369423503")
 	)
 	(pad "5" smd custom
 		(at 43.47 -11.88)
@@ -169,7 +169,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "3bcd3e0e-19fc-46a8-aab9-db6211d62e4d")
+		(uuid "e978b948-640b-45dc-8bc9-ab0931754f8c")
 	)
 	(embedded_fonts no)
 )
