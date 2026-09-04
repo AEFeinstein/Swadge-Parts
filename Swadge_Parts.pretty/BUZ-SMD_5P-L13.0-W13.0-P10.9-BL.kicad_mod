@@ -1,0 +1,234 @@
+(footprint "BUZ-SMD_5P-L13.0-W13.0-P10.9-BL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9 0)
+		(layer "F.SilkS")
+		(uuid "e5891e94-fe35-4494-a4fe-d675cedfc0ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BUZ-SMD_5P-L13.0-W13.0-P10.9-BL"
+		(at 0 9 0)
+		(layer "F.Fab")
+		(uuid "822153ce-0e2b-40fc-a89a-8c6b6d657863")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b4f6a93-baf7-4ab3-9400-0f3225bc4e7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a96dfa4f-e5e3-4dc0-87e2-5a4df64efc49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.11 4.64)
+		(end -8.09 4.64)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de090a87-0b53-4f95-977b-08186bab9ad6")
+	)
+	(fp_line
+		(start -8.6 4.13)
+		(end -8.6 5.15)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75345ac7-eaa1-4459-a526-cde252f803c3")
+	)
+	(fp_line
+		(start -7.49 -7.93)
+		(end 7.49 -7.93)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b92204ca-2cb0-4c7d-b5f5-b84c4d89d72e")
+	)
+	(fp_line
+		(start -7.49 -7.42)
+		(end -7.49 -7.93)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d5725fc-81c8-498e-b402-ec10a4b20574")
+	)
+	(fp_line
+		(start -7.49 2.58)
+		(end -7.49 -3.46)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3eaf9f96-382f-421d-8d6b-ce8df8aa1fa5")
+	)
+	(fp_line
+		(start -7.49 7.05)
+		(end -7.49 6.54)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69b2737d-df28-4e75-865b-a241e95ee373")
+	)
+	(fp_line
+		(start 7.49 -7.93)
+		(end 7.49 -7.42)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "833b9966-fb84-47c5-9936-164445b57137")
+	)
+	(fp_line
+		(start 7.49 -3.46)
+		(end 7.49 2.58)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb25ce8b-3fed-43cd-8166-fd5a1ef5730e")
+	)
+	(fp_line
+		(start 7.49 6.54)
+		(end 7.49 7.05)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7968a5a-3e7e-4094-be9e-702c688dcff4")
+	)
+	(fp_line
+		(start 7.49 7.05)
+		(end -7.49 7.05)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c23bc72-7c45-47df-b5dc-24d27f27fc77")
+	)
+	(fp_circle
+		(center 0 -0.44)
+		(end 3.59 -0.44)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f292b105-a099-4919-9960-4cf40efc85f7")
+	)
+	(fp_rect
+		(start -6.5 -6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "45e4890b-c922-49cd-ab55-de8e60ec993b")
+	)
+	(fp_circle
+		(center -7.5 7.06)
+		(end -7.47 7.06)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fd680def-f65a-42f8-8079-bb1c8909d236")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3d242b11-32fd-47ef-a1a6-2b68b043c4ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.7 4.35)
+		(size 1.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4747306b-b3fc-41b5-bd73-2fc84092d195")
+	)
+	(pad "2" smd rect
+		(at 5.7 4.35)
+		(size 1.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "881ab68a-75be-48fe-96f0-9c2d416d2e73")
+	)
+	(pad "3" smd rect
+		(at 5.7 -4.35)
+		(size 1.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69465421-8ca4-40fa-9ec1-924aaa2f6652")
+	)
+	(pad "4" smd rect
+		(at -5.7 -4.35)
+		(size 1.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30d35466-02bf-461c-8ebb-4d5af5f1cc22")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/BUZ-SMD_5P-L15.0-W15.0-P13.7-BL.step"
+		(offset
+			(xyz 0 0.44 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
