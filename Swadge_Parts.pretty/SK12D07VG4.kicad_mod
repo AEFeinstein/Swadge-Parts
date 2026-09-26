@@ -1,0 +1,454 @@
+(footprint "SK12D07VG4"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Slide Switch SPDT Through Hole, Right Angle, 4mm")
+	(property "Reference" "REF**"
+		(at -3 -3 0)
+		(layer "F.SilkS")
+		(uuid "01a50a0a-1590-46c2-aa08-0e82b75d4f91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK12D07VG4"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02e61076-f041-499f-8b46-97581e5371e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55aa7110-9f20-44cd-b866-a341e965a7b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "SPDT Slide Switch, 4mm Arm, 2mm Travel"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "853705a9-2ad6-42d1-b98e-b12b0a76ea18")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Cost100" "0.0180"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc311705-67ad-4600-9624-3f4eec13d3c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Digikey" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7f07d7c-c7e9-4d20-928a-d950b4caa08a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C393937"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dc309ec-fcd9-48cf-8655-d0f0d9ab9c75")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Notes" "Use SPDT slide switch. Similar to 1825232-1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7442950c-54fd-4943-a02f-d8ab7f91b023")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Substitutable" "Y"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e46a1937-c2c9-4154-acd6-2f3c49171183")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "Swadge-S2-Devkit.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(jumper_pad_groups
+		("4" "5")
+	)
+	(fp_line
+		(start -1 2.5)
+		(end -1 7)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "fa8e7dbd-ba23-4a04-bf5c-a23b12d415f9")
+	)
+	(fp_line
+		(start 1 2.5)
+		(end 1 7)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "96f7e512-47de-4ba7-923e-b0100e568e39")
+	)
+	(fp_line
+		(start -4.75 -2.25)
+		(end -4.75 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "08e6fc11-c956-4b52-bab1-52220099d46c")
+	)
+	(fp_line
+		(start -4.75 2.25)
+		(end -2.125 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5efa0890-c111-40f4-8d30-1a1aaf13d7bb")
+	)
+	(fp_line
+		(start -2.125 2.25)
+		(end -2.125 8.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "23f35c9e-0702-4a03-944c-a398e4c3789a")
+	)
+	(fp_line
+		(start -2.125 8.25)
+		(end 2 8.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1187a72e-3d23-4b74-9bdd-85eb348a2811")
+	)
+	(fp_line
+		(start 2.125 2.25)
+		(end 4.75 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "14a154d2-3f2e-4601-94e3-ed160743cd59")
+	)
+	(fp_line
+		(start 2.125 8.25)
+		(end 2.125 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "77a3b33b-92ae-4d59-bd68-651212accf40")
+	)
+	(fp_line
+		(start 4.75 -2.25)
+		(end -4.75 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8712051b-17c5-4462-91fe-141672f9b591")
+	)
+	(fp_line
+		(start 4.75 2.25)
+		(end 4.75 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a99bc53e-4722-4eaf-9bc9-5377b2b8db7f")
+	)
+	(fp_line
+		(start -4.3 -2.15)
+		(end 4.3 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34aefeb1-ec74-4a11-8cef-f2a3fc2c26e7")
+	)
+	(fp_line
+		(start -4.3 2.15)
+		(end -4.3 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76f9dafc-4a59-4f76-9eb7-8c31e3caff61")
+	)
+	(fp_line
+		(start -2 8.15)
+		(end -2 2.15)
+		(stroke
+			(width 0.06)
+			(type dot)
+		)
+		(layer "F.Fab")
+		(uuid "525dd212-7bfa-4111-91fd-cc4a7d60356a")
+	)
+	(fp_line
+		(start -2 8.15)
+		(end -1.5 8.15)
+		(stroke
+			(width 0.06)
+			(type dot)
+		)
+		(layer "F.Fab")
+		(uuid "32d3858e-762a-42a5-860a-e7c2d6d6e822")
+	)
+	(fp_line
+		(start -1.5 8.15)
+		(end -1 7.65)
+		(stroke
+			(width 0.06)
+			(type dot)
+		)
+		(layer "F.Fab")
+		(uuid "f3f5ca84-7dd7-42db-a368-8fcfedd0ae3e")
+	)
+	(fp_line
+		(start -1 7.65)
+		(end -0.5 8.15)
+		(stroke
+			(width 0.06)
+			(type dot)
+		)
+		(layer "F.Fab")
+		(uuid "f22c3910-5d0b-4e30-920b-57223216973b")
+	)
+	(fp_line
+		(start -0.5 8.15)
+		(end 0 8.15)
+		(stroke
+			(width 0.06)
+			(type dot)
+		)
+		(layer "F.Fab")
+		(uuid "f6d38125-4738-40d5-a43c-62b184e40652")
+	)
+	(fp_line
+		(start 0 2.15)
+		(end 0 8.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73969a06-ede7-4d44-b3c2-bcca5893b445")
+	)
+	(fp_line
+		(start 0 8.15)
+		(end 0.5 8.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ff3077b-40cb-4834-9575-c3421e0962ea")
+	)
+	(fp_line
+		(start 0.5 8.15)
+		(end 1 7.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "544200d4-57c4-483a-836c-b482db46149b")
+	)
+	(fp_line
+		(start 1 7.65)
+		(end 1.5 8.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09f89914-3e06-4ab7-8b41-740bc5e7b0fb")
+	)
+	(fp_line
+		(start 1.5 8.15)
+		(end 2 8.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d7e7299-ed78-41bf-9ed0-d2eea0bcd9b0")
+	)
+	(fp_line
+		(start 2 8.15)
+		(end 2 2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5246555-2e4f-49d9-af73-8d34ff2859a6")
+	)
+	(fp_line
+		(start 4.3 -2.15)
+		(end 4.3 2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b4a4c15-65b5-4782-aaee-3e8038844ca6")
+	)
+	(fp_line
+		(start 4.3 2.15)
+		(end -4.3 2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30ea573d-244f-497d-a151-65a0c3d6bfb0")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f97bb9fd-177a-4514-a9fd-09e3cff3f72e")
+		(pts
+			(xy -1 5) (xy 1 5)
+		)
+		(height 4.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "mm")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 1)
+			(arrow_direction inward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2mm"
+			(at 0 9.5 0)
+			(layer "Dwgs.User")
+			(uuid "f97bb9fd-177a-4514-a9fd-09e3cff3f72e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1bdae442-645d-4380-b6a0-c3e542f26f40")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afa6e1aa-b4c1-4208-8141-1f903c62db43")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed10cbac-4a57-44e3-ba42-e30fff9f1370")
+	)
+	(pad "4" thru_hole oval
+		(at -4.15 0)
+		(size 1.2 2)
+		(drill oval 0.7 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "293beca9-fffb-4d79-b5fd-278e0ff31e58")
+	)
+	(pad "5" thru_hole oval
+		(at 4.15 0)
+		(size 1.2 2)
+		(drill oval 0.7 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad156f2e-ef82-4538-80c6-d80d6f3f3a17")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/SK12D07VG4.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
